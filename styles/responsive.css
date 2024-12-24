@@ -1,0 +1,356 @@
+@media (max-width: 775px){
+    .notes_menu{
+        margin: 0 32px 32px 32px;
+    }
+
+    .menu_overlay{
+        padding: 24px;
+    }
+
+    .menu_overlay p{
+        font-size: 20px;
+        padding: 6px 14px;
+    }
+
+    footer h2{
+        font-size: 32px;
+    }
+
+    footer p{
+        font-size: 16px;
+        width: 136px;
+    }
+
+    footer img{
+        height: 32px;
+    }
+
+    .social_media{
+        width: 136px;
+    }
+
+    .notes{
+        max-width: 180px;
+    }
+
+    .title{
+        max-width: 180px;
+        font-size: 20px;
+    }
+
+    .text{
+        max-width: 120px;
+        font-size: 12px;
+    }
+
+    .notes_overlay_box{
+        min-width: 320px;
+        min-height: 384px;
+        padding: 0 24px;
+        border: 2px solid black;
+    }
+
+    .notes_overlay_title{
+        margin: 16px 0;
+        font-size: 20px;
+    }
+    
+    .notes_overlay_text{
+        font-size: 14px;
+        padding: 6px;
+        min-height: 228px;
+        min-width: 304px;
+        max-height: 228px;
+        max-width: 304px;
+        margin-top: 0;
+    }
+
+    .notes_overlay_box img{
+        margin: 16px;
+        width: 38px !important;
+    }
+
+    .notes_overlay img{
+        width: 64px;
+        height: auto;
+        margin: 16px;
+    }
+
+    .notes_style{
+        justify-content: center;
+    }
+}
+
+@media (max-width: 635px){
+    .notes_menu{
+        margin: 0 24px 24px 24px;
+    }
+
+    header{
+        padding: 32px 0;
+    }
+
+    h1{
+        font-size: 48px;
+    }
+
+    h2{
+        font-size: 28px;
+    }
+
+    h3{
+        font-size: 20px;
+    }
+
+    .button_add_notes {
+        margin: 16px 0 16px 16px;
+        width: 88px;
+        height: 88px;
+    }
+
+    footer{
+        height: 104px;
+    }
+
+    footer h2{
+        font-size: 28px;
+    }
+
+    footer p{
+        font-size: 14px;
+        width: 88px;
+    }
+
+    footer img{
+        height: 24px;
+    }
+
+    .social_media{
+        gap: 12px;
+        width: 88px;
+    }
+
+    .notes{
+        max-width: 120px;
+        min-width: 120px;
+        min-height: 120px;
+        padding: 14px;
+    }
+
+    .notes img{
+        width: 24px;
+        height: auto;
+        margin-top: 8px;
+    }
+
+    .notes_overlay img{
+        width: 48px;
+        height: auto;
+        margin: 8px;
+    }
+    
+    .title{
+        max-width: 120px;
+        min-width: 120px;
+        font-size: 18px;
+    }
+
+    .text{
+        max-width: 80px;
+        min-width: 80px;
+        font-size: 10px;
+    }
+
+    .notes_overlay_box{
+        min-width: 280px;
+        min-height: 400px;
+        padding: 0 24px;
+        border: 2px solid black;
+    }
+
+    .notes_overlay_title{
+        margin: 16px 0;
+        font-size: 20px;
+    }
+    
+    .notes_overlay_text{
+        font-size: 14px;
+        padding: 6px;
+        min-height: 240px;
+        min-width: 266px;
+        max-height: 240px;
+        max-width: 266px;
+    }
+
+    .notes_overlay_box img{
+        margin: 16px;
+        width: 32px !important;
+        padding: 0;
+    }
+}
+
+@media (max-width: 510px){
+    .notes_menu{
+        margin: 0;
+        padding: 16px;
+        border-radius: 0;
+    }
+
+    .notes_section{
+        align-items: center;
+    }
+
+    .button_add_notes{
+        margin-left: 0;
+        margin-bottom: 40px;
+    }
+
+    .menu_overlay{
+        padding: 16px;
+    }
+
+    .menu_overlay p{
+        font-size: 16px;
+        padding: 6px 12px;
+    }
+
+    header{
+        padding: 24px 0;
+    }
+
+    h1{
+        font-size: 40px;
+    }
+
+    h2{
+        font-size: 30px;
+        margin-bottom: 16px;
+        text-align: center;
+    }
+
+    h3{
+        font-size: 18px;
+        text-align: center;
+        font-size: 20px;
+        padding: 4px 40px;
+        background-color: rgb(193, 189, 201);
+        border-radius: 8px;
+    }
+
+    .notes_section h3{
+        font-size: 20px;
+        padding: 4px 86px;
+        background-color: rgb(193, 189, 201);
+        border-radius: 8px;
+    }
+
+    .h3_{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer h2{
+        font-size: 24px;
+    }
+
+    footer p{
+        font-size: 8px;
+        width: 56px;
+    }
+
+    footer img{
+        height: 16px;
+    }
+
+    footer a{
+        height: 24px;
+    }
+
+    .social_media{
+        gap: 6px;
+        width: 56px;
+    }
+
+    .input_style{
+        width: 240px;
+        height: 380px;
+    }
+
+    .notes{
+        max-width: 220px;
+        min-width: 220px;
+        min-height: 140px;
+        margin: 16px;
+    }
+
+    .notes img{
+        width: 40px;
+        height: auto;
+        margin-top: 8px;
+    }
+    
+    .title{
+        max-width: 220px;
+        min-width: 120px;
+        font-size: 24px;
+    }
+
+    .text{
+        max-width: 200px;
+        min-width: 200px;
+        font-size: 14px;
+    }
+
+    .notes_overlay img{
+        width: 32px;
+        margin: 0;
+    }
+
+    .notes_overlay_box{
+        min-width: 200px;
+        min-height: 400px;
+    }
+
+    .notes_overlay_title{
+        margin: 16px 0;
+        font-size: 20px;
+    }
+    
+    .notes_overlay_text{
+        font-size: 14px;
+        min-height: 252px;
+        min-width: 180px;
+        max-height: 252px;
+        max-width: 180px;
+        margin-top: 0;
+    }
+
+    .notes_overlay_box img{
+        margin: 16px;
+        width: 40px !important;
+    }
+
+    footer{
+        flex-direction: column-reverse;
+    }
+
+    .footer_wall{
+        width: 80%;
+        height: 1px;
+    }
+
+    .d_none_resp{
+        display: none;
+    }
+
+    .social_media{
+        gap: 80px;
+        display: flex;
+        justify-content: center;
+    }
+
+    footer img{
+        height: 24px;
+        width: auto;
+    }
+}

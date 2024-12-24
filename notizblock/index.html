@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizblock</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+    <script src="./script.js"></script>
+    <script src="./scripts/template.js"></script>
+    <script src="./scripts/overlay.js"></script>
+    <script src="./scripts/addnotesmenu.js"></script>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+</head>
+<body class="open-sans" onload="renderNotes()">
+    <div class="add_notes_overlay d_none" id="addNotesMenu" onclick="closeAddNotesMenu()"></div>
+    <div class="input_style d_none" id="input_field">
+        <input type="text" id="input_title" placeholder="Titel">
+        <textarea id="the_input" rows="" class="open-sans" ></textarea>
+        <button onclick="addNote()">Hinzufügen</button>
+    </div>
+    <header>
+        <h1>Notizblock</h1>
+    </header>
+    <div class="main_container">
+        <div class="menu_overlay">
+            <div class="menu">
+                <p onclick="showNotes()">Notizen</p>
+                <p onclick="showArchiv()">Archiv</p>
+                <p onclick="showTrash()">Papierkorb</p>   
+            </div>
+            <div class="made_by">
+                <p>Designed and<br> created by<br> Furkan Yigit</p>
+            </div>
+        </div>
+        <div class="notes_overlay">
+            <div class="section_notes" id="show_notes">
+                <h2>Meine Notizen</h2>
+                <h3>Notiz hinzufügen</h3>
+                <div class="notes_section">
+                    <button onclick="showAddNotesMenu()" class="button_add_notes">
+                        +
+                    </button>
+                    <h3>Notizen</h3>
+                    <div id="section_notes" class="notes_style"></div>
+                </div>
+            </div>
+            <div class="section_archiv d_none" id="show_archiv">
+                <h2>Archiv</h2>
+                <div id="section_archiv" class="notes_style "></div>
+            </div>
+            <div class="section_trash d_none" id="show_trash">
+                <h2>Papierkorb</h2>
+                <div id="section_trash" class="notes_style"></div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
+
+
+

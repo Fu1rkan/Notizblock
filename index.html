@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notizblock</title>
+
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/assets.css">
+    <link rel="stylesheet" href="./styles/standard.css">
+    <link rel="stylesheet" href="./styles/responsive.css">
+    <script src="./script.js"></script>
+    <script src="./scripts/template.js"></script>
+    <script src="./scripts/overlay.js"></script>
+    <script src="./scripts/addnotesmenu.js"></script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    
+</head>
+<body class="open-sans" onload="init()">
+    <div class="add_notes_overlay d_none" id="addNotesMenu" onclick="closeAddNotesMenu()"></div>
+    <div class="input_style d_none" id="input_field">
+        <input type="text" id="input_title" placeholder="Titel" maxlength="35">
+        <textarea id="the_input" rows="" class="open-sans" ></textarea>
+        <button onclick="addNote()">Hinzufügen</button>
+    </div>
+    <div class="notes_overlay d_none" id="open_notes">
+        <div class="notes_overlay_box"></div>
+    </div>
+    <header>
+        <a href="#"><h1>Notizblock</h1></a>
+    </header>
+    <div class="menu_overlay">
+        <p id="note_overlay" onclick="showNotes()">Notizen</p>
+        <p id="archiv_overlay" onclick="showArchiv()">Archiv</p>
+        <p id="trash_overlay" onclick="showTrash()">Papierkorb</p>   
+    </div>
+    <div class="main_container">
+        <div class="notes_menu">
+            <div class="section_notes" id="show_notes">
+                <h2>Meine Notizen</h2>
+                <div class="h3_">
+                    <h3>Notiz hinzufügen</h3>
+                </div>
+                <div class="notes_section">
+                    <button onclick="showAddNotesMenu()" class="button_add_notes">
+                        +
+                    </button>
+                    <h3>Notizen</h3>
+                    <div id="section_notes" class="notes_style"></div>
+                </div>
+            </div>
+            <div class="section_archiv d_none" id="show_archiv">
+                <h2>Archiv</h2>
+                <div id="section_archiv" class="notes_style "></div>
+            </div>
+            <div class="section_trash d_none" id="show_trash">
+                <h2>Papierkorb</h2>
+                <div id="section_trash" class="notes_style"></div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="social_media">    
+            <a href="https://www.facebook.com/profile.php?id=100007381268672"><img src="./img/facebook_white.png" alt=""></a>
+            <a href="https://www.instagram.com/fuu1rkan/"><img src="./img/instagram_white.png" alt=""></a>
+            <a href="https://x.com/Fuu1rkan"><img src="./img/twitter_white.png" alt=""></a>
+        </div>
+        <div class="footer_wall"></div>
+        <a href="#"><h2>Notizblock</h2></a>
+        <div class="footer_wall d_none_resp"></div>
+        <p class="d_none_resp">Designed and <br> created by<br>Furkan Yigit</p>
+    </footer>
+</body>
+</html>

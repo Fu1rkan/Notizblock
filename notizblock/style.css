@@ -1,0 +1,160 @@
+.main_container{
+    display: flex;
+    min-height: 100vh;
+    background-color: #C1BDC9;
+}
+
+.menu_overlay{
+    padding: 40px;
+    background-color: rgb(193, 189, 201);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.menu_overlay p{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.menu p:hover{
+    transform: scale(1.02);
+    cursor: pointer;
+}
+
+.made_by p{
+    font-size: 19px;
+}
+
+.notes_overlay{
+    margin: 40px 0 0 40px;
+    width: 100%;
+    background-color: rgb(234, 231, 231);
+    border-radius: 8px;
+    padding: 24px;
+}
+
+.notes_style{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notes{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 24px;
+    min-width: 168px;
+    min-height: 168px;
+    max-width: 240px;
+    background-color: #67645e;
+    border: 1px solid rgb(0, 0, 0);
+    background-position: center;
+    object-fit: cover;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    color: white;
+    border-radius: 8px;
+    padding: 16px;
+}
+
+.note{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.notes_section{
+    display: flex;
+    flex-direction: column;
+}
+
+.button_add_notes{
+    margin: 24px 0 24px 24px;
+    width: 104px;
+    height: 104px;
+    background-color: rgba(156, 149, 149, 0.522);
+    border-radius: 8px;
+}
+
+.button_add_notes:hover{
+    transform: scale(1.02);
+    font-size: larger;
+    background-color: rgba(147, 140, 140, 0.522);
+    border: 1px solid black;
+}
+
+.show_input_button{
+    margin: 24px;
+    height: 104px;
+    width: 104px;
+}
+
+.add_notes_overlay{
+    position: fixed;
+    background-color: rgba(26, 25, 25, 0.522);
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.input_style{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(85, 83, 83);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    padding: 16px;
+    gap: 16px;
+    border-radius: 8px;
+    z-index: 2;
+}
+
+.input_style button{
+    padding: 8px 16px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(212, 212, 212);
+}
+
+.input_style button:hover{
+    background-color: rgb(247, 239, 239);
+    cursor: pointer;
+
+}
+
+.title{
+    font-size: 20px;
+}
+
+button img{
+    height: 40px;
+    width: 40px;
+}
+
+button img:hover{
+    transform: scale(1.1);
+}
+
+.error_input::placeholder{
+    color: rgba(255, 0, 0, 0.5);
+    font-size: 14px;
+    text-align: start;
+}
+
+.d_none{
+    display: none;
+}
